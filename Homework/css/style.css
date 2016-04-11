@@ -38,6 +38,27 @@ article > time {
 
 }
 
+section > figure > img {
+    display: none;
+    margin: 0px auto;
+}
+
+section > figure.visible > img {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+section > figure > figcaption {
+    display: none;
+}
+
+section > figure.visible > figcaption {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
 
 @media not print {
     body {
